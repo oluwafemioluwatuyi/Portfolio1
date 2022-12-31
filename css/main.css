@@ -1812,7 +1812,7 @@ header .logo a {
 	width: 100%; */
 }
 
-#portfolio .overlay {
+/* #portfolio .overlay {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -1824,7 +1824,7 @@ header .logo a {
 	-webkit-transition: all 0.5s ease-in-out;
 	-ms-transition: all 0.5s ease-in-out;
 	transition: all 0.5s ease-in-out;
-}
+} */
 
 #portfolio .folio-item-table {
 	display: table;
@@ -1870,6 +1870,121 @@ header .logo a {
 	-ms-transform: scale(1.05);
 	transform: scale(1.05);
 }
+
+.port{
+	display: grid;
+	column-gap:5px;
+	grid-template-columns: repeat(2, 1fr);
+	height: 100%;
+	width: 100%;
+	
+}
+
+.port_list2 img{
+	height: 94%;
+	width: 100%;
+
+}
+
+.port_list4 img{
+	height: 93%;
+	width: 100%;
+
+}
+
+
+
+@media only screen and (max-width:1024px) {
+	.port{
+		display: grid;
+		column-gap:5px;
+		grid-template-columns: repeat(2, 1fr);
+		height: 100%;
+		width: 100%;
+		
+	}
+
+	.port_list2 img{
+		height: 94%;
+		width: 100%;
+	
+	}
+	
+	.port_list4 img{
+		height: 93%;
+		width: 100%;
+	
+	}
+	
+}
+@media only screen and (max-width:768px) {
+	.port{
+		display: grid;
+		column-gap:5px;
+		grid-template-columns: repeat(2, 1fr);
+		height: 100%;
+		width: 100%;
+		
+	}
+	.port_list2 img{
+		height: 92%;
+		width: 100%;
+	
+	}
+	
+	.port_list4 img{
+		height: 91%;
+		width: 100%;
+	
+	}
+}
+
+@media only screen and (max-width:500px) {
+	.port{
+		display: grid;
+		column-gap:5px;
+		grid-template-columns: repeat(2, 1fr);
+		height: 100%;
+		width: 100%;
+		
+	}
+	.port_list2 img{
+		height: 88%;
+		width: 100%;
+	
+	}
+	
+	.port_list4 img{
+		height: 87%;
+		width: 100%;
+	
+	}
+}
+@media only screen and (max-width:400px) {
+	.port{
+		display: grid;
+		column-gap:5px;
+		grid-template-columns: repeat(2, 1fr);
+		height: 100%;
+		width: 100%;
+		
+	}
+	.port_list2 img{
+		height: 90%;
+		width: 100%;
+	
+	}
+	
+	.port_list4 img{
+		height: 87%;
+		width: 100%;
+	
+	}
+}
+
+
+
+
 
 /**
  * responsive:
