@@ -446,7 +446,7 @@ img.pull-left {
  *
  * ------------------------------------------------------------------- 
  */
-#preloader {
+/* #preloader {
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -501,7 +501,7 @@ img.pull-left {
 		-webkit-transform: rotate(360deg);
 		transform: rotate(360deg);
 	}
-}
+} */
 
 /** 
  * ===================================================================
